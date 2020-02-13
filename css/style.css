@@ -9,7 +9,7 @@ a {
 
 footer {
   background-color: orange;
-  height: 400px;
+  height: auto;
   position: relative;
   bottom: 0;
 }
@@ -165,4 +165,13 @@ a:hover {
 .newsletter {
   background-color: aqua;
   height: 400px;
+}
+
+.footer-head {
+  border-bottom: 1px solid #dedede;
+  height: 150px;
+}
+
+.footer-links {
+  height: auto;
 }
