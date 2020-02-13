@@ -60,3 +60,28 @@ a:hover {
   margin: 10px auto 0;
   z-index: 1500;
 }
+
+.featured-content {
+  background-color: tomato;
+  height: 700px;
+}
+
+.featured-post {
+  background-color: turquoise;
+  height: 600px;
+}
+
+.featured-stories {
+  background-color: blue;
+  height: 500px;
+}
+
+.featured-various {
+  background-color: chocolate;
+  height: 600px;
+}
+
+.featured-opinion {
+  background-color: wheat;
+  height: 650px;
+}
