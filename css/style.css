@@ -10,6 +10,8 @@ a {
 footer {
   background-color: orange;
   height: 400px;
+  position: relative;
+  bottom: 0;
 }
 
 a:hover {
@@ -29,8 +31,8 @@ a:hover {
 
 .main {
   background-color: blueviolet;
-  height: 800px;
   box-sizing: border-box;
+  height: auto;
 }
 
 .header-bottom {
@@ -84,4 +86,28 @@ a:hover {
 .featured-opinion {
   background-color: wheat;
   height: 650px;
+}
+
+.poster-magazine {
+  background-color: cornflowerblue;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.main-poster {
+  background-color: blueviolet;
+  height: 400px;
+}
+
+.first-row,
+.row-top,
+.row-bottom {
+  box-sizing: border-box;
+}
+
+.poster-magazine > .row-bottom > div,
+.poster-magazine > .first-row > .secondary-poster > .row-top > div {
+  background-color: tomato;
+  height: 200px;
+  border: 1px solid white;
 }
