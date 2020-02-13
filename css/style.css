@@ -133,6 +133,15 @@ a:hover {
   height: 400px;
 }
 
+.picks-row {
+  border: 1px solid #dedede;
+}
+
+.block-title > h3 > a {
+  color: #f72210;
+  font-weight: 900;
+}
+
 .picks-section > .row > div {
   background-color: turquoise;
   height: 350px;
@@ -146,4 +155,14 @@ a:hover {
 
 .list-features > ul > li:first-child {
   border-top: 0;
+}
+
+.subscribe-cover {
+  background-color: #dedede;
+  height: 400px;
+}
+
+.newsletter {
+  background-color: aqua;
+  height: 400px;
 }
