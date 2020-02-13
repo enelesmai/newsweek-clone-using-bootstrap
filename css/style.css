@@ -1,3 +1,62 @@
-.selector-for-some-widget {
-  box-sizing: content-box;
+body {
+  background-color: teal;
+  margin: 0 !important;
+}
+
+a {
+  text-transform: uppercase;
+}
+
+footer {
+  background-color: orange;
+  height: 400px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.header-top {
+  background-color: #f72210;
+  color: #fff;
+  display: flex;
+  align-content: flex-end;
+  height: 95px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 5px 0 0;
+}
+
+.main {
+  background-color: blueviolet;
+  height: 800px;
+  box-sizing: border-box;
+}
+
+.header-bottom {
+  background-color: #fff;
+  margin-top: 95px;
+  width: 100%;
+}
+
+.page-header {
+  background-color: #f72210;
+}
+
+.page-header .link-white {
+  color: white;
+}
+
+.page-header .link-btn-white {
+  background-color: white;
+  color: #f72210;
+}
+
+.page-header .brand svg {
+  fill: white;
+  display: block;
+  width: 396px;
+  height: 95px;
+  margin: 10px auto 0;
+  z-index: 1500;
 }
