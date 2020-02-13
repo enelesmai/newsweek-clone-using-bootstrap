@@ -41,6 +41,10 @@ a:hover {
   width: 100%;
 }
 
+.title-section > h3 {
+  margin: 0 auto;
+}
+
 .page-header {
   background-color: #f72210;
 }
@@ -110,4 +114,21 @@ a:hover {
   background-color: tomato;
   height: 200px;
   border: 1px solid white;
+}
+
+.editor-pick {
+  margin: 10px 0;
+  height: auto;
+}
+
+.editor-pick > .row > div {
+  background-color: goldenrod;
+  border: 1px solid white;
+  height: 200px;
+}
+
+.featured-slideshow > .row > div {
+  background-color: teal;
+  border: 1px solid white;
+  height: 400px;
 }
