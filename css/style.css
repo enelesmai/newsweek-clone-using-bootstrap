@@ -39,6 +39,41 @@ a:hover {
   background-color: #fff;
   margin-top: 95px;
   width: 100%;
+  width: 100%;
+  padding: 10px 0;
+  border-bottom: #dedede;
+}
+
+.header-bottom > .menu > nav > a {
+  color: #000;
+  font-weight: 900;
+  text-transform: none;
+}
+
+.header-bottom > nav > a:hover {
+  color: #f72210;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.1rem 0.5rem;
+  border-right: 1px solid #dedede;
+}
+
+.menu > nav > .nav-link:last-child {
+  display: block;
+  padding: 0.1rem 0.5rem;
+  border-right: none;
+}
+
+.input-search {
+  border: none;
+  text-align: right;
+  width: 60px;
+}
+
+.margin-left {
+  margin-left: 0;
 }
 
 .title-section > h3 {
