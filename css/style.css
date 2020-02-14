@@ -1,5 +1,4 @@
 body {
-  background-color: teal;
   margin: 0 !important;
   font-family: Arial, Helvetica, sans-serif;
   color: #333;
@@ -43,7 +42,6 @@ a:hover {
 }
 
 .main {
-  background-color: blueviolet;
   box-sizing: border-box;
   height: auto;
 }
@@ -116,13 +114,11 @@ a:hover {
 }
 
 .featured-content {
-  background-color: tomato;
   height: auto;
   padding-top: 10px;
 }
 
 .featured-post {
-  background-color: turquoise;
   height: auto;
 }
 
@@ -147,8 +143,13 @@ a:hover {
   border-bottom: 1px solid #dedede;
 }
 
+.opinion-box > .featured-small-new,
 .more-stories-section > .featured-small-new {
   border-bottom: none;
+}
+
+.opinion-box > .featured-small-new:first-child {
+  border-top: none;
 }
 
 .featured-small-new a {
@@ -283,7 +284,6 @@ h3.story-title-culture {
 }
 
 .featured-various {
-  background-color: chocolate;
   height: auto;
 }
 
@@ -292,7 +292,8 @@ h3.story-title-culture {
   background-color: #f4f5f7;
 }
 
-.image {
+.image,
+.image-opinion {
   width: auto;
   height: auto;
   float: left;
@@ -304,6 +305,11 @@ h3.story-title-culture {
   height: 90px;
 }
 
+.image-opinion > a > img {
+  width: 63px;
+  height: 63px;
+}
+
 .summary {
   font-weight: 400;
 }
@@ -311,7 +317,7 @@ h3.story-title-culture {
 
 .featured-opinion {
   background-color: wheat;
-  height: 650px;
+  height: auto;
 }
 
 .poster-magazine {
