@@ -136,6 +136,10 @@ a:hover {
   padding-top: 10px;
 }
 
+.culture-box {
+  margin-bottom: 20px;
+}
+
 .featured-small-new {
   padding: 10px 0;
   font-weight: 900;
@@ -163,6 +167,12 @@ a:hover {
   align-items: flex-end;
 }
 
+.img-culture {
+  width: 100%;
+  height: 162px;
+  background-size: cover;
+}
+
 .img-feat-story-1 {
   background-image: url(https://d.newsweek.com/en/full/1567228/bernie-sanders.jpg?w=397&h=265&q=90&f=8211f048a2ca881057c7251a12a4ebc4);
 }
@@ -183,11 +193,36 @@ a:hover {
   background-image: url(https://d.newsweek.com/en/full/1567193/bill-barr.jpg?w=591&h=364&f=05460f976ab2e23cdfd52cbec92c7cb0);
 }
 
+.img-culture-1 {
+  background-image: url(https://d.newsweek.com/en/full/1552293/cul-map-underwater-banner.webp?w=397&h=265&f=556690dba11324f197a04f43aadde8fa);
+}
+
+.img-culture-2 {
+  background-image: url(https://d.newsweek.com/en/full/1542818/vineyard-remy-martin.webp?w=397&h=265&f=d9d3a493c4818bedce1a45fc03bbab38);
+}
+
+.img-culture-3 {
+  background-image: url(https://d.newsweek.com/en/full/1564962/cul-map-undergroundsubways-09-91029419.webp?w=397&h=265&f=c75ea7fe40bca26ffbb19f21fccf1054);
+}
+
+.img-culture-4 {
+  background-image: url(https://d.newsweek.com/en/full/1556716/twa-hotel.webp?w=397&h=265&f=7af1ce5444b4a2b638b278b6207aeb3a);
+}
+
 .section-title {
   color: rgba(3, 3, 3, 0.4);
   font: bold 16px/16px "Roboto Condensed",sans-serif;
   text-transform: uppercase;
-  padding-bottom: 11px;
+  padding: 11px 0;
+}
+
+.culture-text {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.margin-left-5px {
+  margin-left: 5px;
 }
 
 .story-title a {
@@ -196,8 +231,23 @@ a:hover {
   font-weight: 900;
 }
 
+h3.story-title-culture {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.story-title-culture a {
+  color: #000;
+  text-transform: none;
+  font-family: 'Times New Roman', Times, serif;
+}
+
 .story-title a:hover {
   text-decoration: underline #f72210;
+}
+
+.story-title-culture a:hover {
+  text-decoration: none;
 }
 
 .cathegory-story {
@@ -208,13 +258,29 @@ a:hover {
   background-color: #ececec;
 }
 
+.cathegory-culture {
+  padding: 5px;
+  color: #333;
+  background-color: #c2d4d7;
+}
+
 .cathegory-story:hover {
   color: #f72210;
+}
+
+.cathegory-culture:hover {
+  color: #fff;
+  background-color: #333;
 }
 
 .featured-various {
   background-color: chocolate;
   height: 600px;
+}
+
+.culture-and-travel-section {
+  margin-top: 20px;
+  background-color: #f4f5f7;
 }
 
 .featured-opinion {
