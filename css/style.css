@@ -149,7 +149,15 @@ a:hover {
 
 .img-feat-story {
   width: 100%;
-  height: 228px;
+  height: 229px;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+}
+
+.img-feat-story-top {
+  width: 100%;
+  height: 312px;
   background-size: cover;
   display: flex;
   align-items: flex-end;
@@ -169,6 +177,10 @@ a:hover {
 
 .img-feat-story-4 {
   background-image: url(https://d.newsweek.com/en/full/1567299/mother.webp?w=397&h=265&l=0&t=0&q=90&f=cd06d7519c23cf8acdc2d5f0d9ee3732);
+}
+
+.img-feat-story-top {
+  background-image: url(https://d.newsweek.com/en/full/1567193/bill-barr.jpg?w=591&h=364&f=05460f976ab2e23cdfd52cbec92c7cb0);
 }
 
 .section-title {
