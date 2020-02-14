@@ -69,7 +69,7 @@ a:hover {
 
 .featured-content {
   background-color: tomato;
-  height: 700px;
+  height: auto;
 }
 
 .featured-post {
@@ -100,7 +100,7 @@ a:hover {
 
 .main-poster {
   background-color: blueviolet;
-  height: 400px;
+  height: 250px;
 }
 
 .first-row,
