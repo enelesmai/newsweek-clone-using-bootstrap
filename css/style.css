@@ -1,6 +1,10 @@
 body {
   background-color: teal;
   margin: 0 !important;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  font-size: 15px;
+  line-height: 20px;
 }
 
 a {
@@ -12,6 +16,10 @@ footer {
   height: auto;
   position: relative;
   bottom: 0;
+}
+
+p {
+
 }
 
 a:hover {
@@ -105,6 +113,7 @@ a:hover {
 .featured-content {
   background-color: tomato;
   height: auto;
+  padding-top: 10px;
 }
 
 .featured-post {
@@ -113,8 +122,51 @@ a:hover {
 }
 
 .featured-stories {
-  background-color: blue;
-  height: 500px;
+  height: auto;
+}
+
+.featured-stories-box {
+  height: auto;
+  width: auto;
+  border-bottom: 1px solid #dedede;
+}
+
+.img-feat-story {
+  width: 100%;
+  height: 228px;
+  background-image: url(https://d.newsweek.com/en/full/1567228/bernie-sanders.jpg?w=397&h=265&q=90&f=8211f048a2ca881057c7251a12a4ebc4);
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+}
+
+.section-title {
+  color: rgba(3, 3, 3, 0.4);
+  font: bold 16px/16px "Roboto Condensed",sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 11px;
+}
+
+.story-title a {
+  color: #000;
+  text-transform: none;
+  font-weight: 900;
+}
+
+.story-title a:hover {
+  text-decoration: underline #f72210;
+}
+
+.cathegory-story {
+  padding: 5px;
+  color: #f72210;
+  font-weight: 900;
+  text-transform: uppercase;
+  background-color: #ececec;
+}
+
+.cathegory-story:hover {
+  color: #f72210;
 }
 
 .featured-various {
