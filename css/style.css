@@ -147,8 +147,17 @@ a:hover {
   border-bottom: 1px solid #dedede;
 }
 
+.more-stories-section > .featured-small-new {
+  border-bottom: none;
+}
+
 .featured-small-new a {
   text-transform: none;
+}
+
+.featured-small-new > h4 > a:hover {
+  color: #000;
+  text-decoration: underline #f72210;
 }
 
 .img-feat-story {
@@ -275,13 +284,30 @@ h3.story-title-culture {
 
 .featured-various {
   background-color: chocolate;
-  height: 600px;
+  height: auto;
 }
 
 .culture-and-travel-section {
   margin-top: 20px;
   background-color: #f4f5f7;
 }
+
+.image {
+  width: auto;
+  height: auto;
+  float: left;
+  margin-right: 5px;
+}
+
+.image > a > img {
+  width: 135px;
+  height: 90px;
+}
+
+.summary {
+  font-weight: 400;
+}
+
 
 .featured-opinion {
   background-color: wheat;
