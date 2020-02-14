@@ -8,7 +8,12 @@ body {
 }
 
 a {
+  color: #000;
   text-transform: uppercase;
+}
+
+a:hover {
+  color: #f72210;
 }
 
 footer {
@@ -118,7 +123,7 @@ a:hover {
 
 .featured-post {
   background-color: turquoise;
-  height: 600px;
+  height: auto;
 }
 
 .featured-stories {
@@ -128,16 +133,42 @@ a:hover {
 .featured-stories-box {
   height: auto;
   width: auto;
+  padding-top: 10px;
+}
+
+.featured-small-new {
+  padding: 10px 0;
+  font-weight: 900;
+  border-top: 1px solid #dedede;
   border-bottom: 1px solid #dedede;
+}
+
+.featured-small-new a {
+  text-transform: none;
 }
 
 .img-feat-story {
   width: 100%;
   height: 228px;
-  background-image: url(https://d.newsweek.com/en/full/1567228/bernie-sanders.jpg?w=397&h=265&q=90&f=8211f048a2ca881057c7251a12a4ebc4);
   background-size: cover;
   display: flex;
   align-items: flex-end;
+}
+
+.img-feat-story-1 {
+  background-image: url(https://d.newsweek.com/en/full/1567228/bernie-sanders.jpg?w=397&h=265&q=90&f=8211f048a2ca881057c7251a12a4ebc4);
+}
+
+.img-feat-story-2 {
+  background-image: url(https://d.newsweek.com/en/full/1567290/kim-jong-un-north-korea-icbm-tests.jpg?w=397&h=265&q=90&f=5d5de304ad69a82d0d2ab9d2b403b43e);
+}
+
+.img-feat-story-3 {
+  background-image: url(https://d.newsweek.com/en/full/1567196/donald-trump.webp?w=397&h=265&q=90&f=c897af14405a1594974d1992994c4735);
+}
+
+.img-feat-story-4 {
+  background-image: url(https://d.newsweek.com/en/full/1567299/mother.webp?w=397&h=265&l=0&t=0&q=90&f=cd06d7519c23cf8acdc2d5f0d9ee3732);
 }
 
 .section-title {
