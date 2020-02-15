@@ -274,6 +274,16 @@ h3.story-title-culture {
   background-color: #c2d4d7;
 }
 
+.cathegory-sponsored {
+  padding: 5px;
+  color: #3581f4;
+  font-weight: 900;
+  text-transform: uppercase;
+  background-color: #ececec;
+  position: relative;
+  bottom: 24px;
+}
+
 .cathegory-story:hover {
   color: #f72210;
 }
@@ -314,14 +324,59 @@ h3.story-title-culture {
   font-weight: 400;
 }
 
-
 .featured-opinion {
-  background-color: wheat;
   height: auto;
 }
 
 .block {
   display: block;
+}
+
+.sponsored-insight-box {
+  height: auto;
+  width: auto;
+  margin: 20px 0;
+}
+
+.img-sponsored {
+  width: 100%;
+  height: 228px;
+  background-size: cover;
+}
+
+.sponsored-summary {
+  border: 1px solid #dedede;
+  padding: 0 20px;
+  top: -20px;
+  position: relative;
+}
+
+.img-sponsored-1 {
+  background-image: url(https://d.newsweek.com/en/full/1561558/saudi-picture.jpg?w=343&amp;h=229&amp;f=c38d1701b1898e7dcc79c2e2dc3aef4a);
+}
+
+.img-sponsored-2 {
+  background-image: url(https://d.newsweek.com/en/full/1556483/south-texas-college-law-houston.png?w=343&amp;h=229&amp;f=38b5405ad57bd1cc7a6189c49f06e358);
+}
+
+.img-sponsored-3 {
+  background-image: url(https://d.newsweek.com/en/full/1551978/media-school-indiana-university.jpg?w=343&amp;h=229&amp;f=2acd7418079f8cde5545fea5bb3815bd);
+}
+
+.img-sponsored-4 {
+  background-image: url(https://d.newsweek.com/en/full/1550618/americas-most-responsible-companies-2020.jpg?w=343&amp;h=229&amp;f=228a31483952835462a9e24494fc24f7);
+}
+
+.img-sponsored-5 {
+  background-image: url(https://d.newsweek.com/en/full/1559216/tokyo-my-city-chizu-nakamoto.jpg?w=343&amp;h=229&amp;f=9001796ad87af5440a19c713ba2fc017);
+}
+
+.img-sponsored-6 {
+  background-image: url(https://d.newsweek.com/en/full/1563523/meet-adam-lambert-new-york-city.png?w=343&amp;h=229&amp;f=5650ee55eada1c2dbd4be78a28f9d8d0);
+}
+
+.img-sponsored-7 {
+  background-image: url(https://d.newsweek.com/en/full/1562518/teach-now-2.jpg?w=343&amp;h=229&amp;f=49b15e13ed47a3d450013239f0af77cf);
 }
 
 .poster-magazine {
