@@ -31,6 +31,7 @@ a:hover {
   max-width: 1310px;
   height: auto;
   margin: 0 auto;
+  background-color: #fff;
 }
 
 .header-top {
@@ -502,16 +503,41 @@ h3.story-title-culture {
   color: #f72210;
   font-weight: 900;
   text-transform: uppercase;
-  background-color:
-  #ececec;
+  background-color: #ececec;
   bottom: 24px;
   position: relative;
 }
 
+.img-slide {
+  width: 100%;
+  height: 265px;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+}
+
+.slide-label {
+  width: 70px;
+  height: 52px;
+  position: relative;
+  bottom: 52px;
+  left: 0;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 58px;
+  text-indent: 5px;
+  text-align: center;
+  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
+  color: #e9212e;
+}
+
+.top-slide {
+  margin-top: -44px;
+}
+
 .featured-slideshow > .row > div {
-  background-color: teal;
   border: 1px solid white;
-  height: 400px;
+  height: auto;
 }
 
 .picks-row {
