@@ -535,8 +535,12 @@ h3.story-title-culture {
   margin-top: -44px;
 }
 
+.border-bottom-section {
+  border-bottom: 1px solid #c2d4d7;
+  margin-bottom: 20px;
+}
+
 .featured-slideshow > .row > div {
-  border: 1px solid white;
   height: auto;
 }
 
@@ -544,20 +548,30 @@ h3.story-title-culture {
   border: 1px solid #dedede;
 }
 
-.block-title > h3 > a {
-  color: #f72210;
+.featured-small-list {
+  padding: 10px 0;
   font-weight: 900;
 }
 
+.block-title > h3 > a {
+  color: #f72210;
+  font-weight: 900;
+  text-transform: none;
+  margin-left: 15px;
+}
+
 .picks-section > .row > div {
-  background-color: turquoise;
-  height: 350px;
-  border: 1px solid white;
+  height: auto;
 }
 
 .list-features > ul > li {
   border-top: 1px solid #dedede;
   height: 100px;
+  margin-bottom: 10px;
+}
+
+.list-features > ul > li > .featured-small-list > a {
+  text-transform: none;
 }
 
 .list-features > ul > li:first-child {
@@ -571,7 +585,7 @@ h3.story-title-culture {
 
 .newsletter {
   background-color: aqua;
-  height: 400px;
+  height: auto;
 }
 
 .footer-head {
