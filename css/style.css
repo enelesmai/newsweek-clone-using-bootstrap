@@ -555,6 +555,10 @@ h3.story-title-culture {
   font-weight: 900;
 }
 
+.no-padding-top {
+  padding-top: 0;
+}
+
 .block-title > h3 > a {
   color: #f72210;
   font-weight: 900;
