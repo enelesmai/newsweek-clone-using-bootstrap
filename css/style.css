@@ -89,6 +89,11 @@ a:hover {
   margin-left: 0;
 }
 
+.title-section {
+  margin-top: 20px;
+  border-bottom: 1px solid #ececec;
+}
+
 .title-section > h3 {
   margin: 0 0 0 10px;
   text-transform: uppercase;
@@ -393,7 +398,6 @@ h3.story-title-culture {
 }
 
 .poster-magazine {
-  background-color: cornflowerblue;
   height: auto;
   box-sizing: border-box;
 }
@@ -410,12 +414,24 @@ h3.story-title-culture {
   padding: 20px;
   display: flex;
   align-items: flex-end;
+  margin-top: 45px;
+}
+
+.fill-content {
+  width: 100%;
+  height: auto;
+}
+
+.img-poster {
+  background-size: cover;
+  height: 290px;
+  width: 100%;
 }
 
 .date-poster {
   position: absolute;
   left: 15px;
-  bottom: 20px;
+  bottom: 28px;
   color: #f22;
   background-color: #ececec;
   padding: 5px;
@@ -438,6 +454,27 @@ h3.story-title-culture {
   background-color: #ccc;
 }
 
+.red-label {
+  margin: 15px 0;
+  color: #fff;
+  padding: 5px 10px;
+  background-color: #f22;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.cathegory-poster {
+  margin: 15px 0;
+  color: #f22;
+  padding: 5px 10xp;
+  background-color: #fff;
+  font-weight: 900;
+}
+
+.label-row {
+  margin: 10px 0;
+}
+
 .first-row,
 .row-top,
 .row-bottom {
@@ -446,9 +483,8 @@ h3.story-title-culture {
 
 .poster-magazine > .row-bottom > div,
 .poster-magazine > .first-row > .secondary-poster > .row-top > div {
-  background-color: tomato;
-  height: 200px;
-  border: 1px solid white;
+  height: auto;
+  margin-top: 10px;
 }
 
 .editor-pick {
