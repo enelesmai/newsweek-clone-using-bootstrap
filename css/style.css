@@ -4,6 +4,7 @@ body {
   color: #333;
   font-size: 15px;
   line-height: 20px;
+  background-color: #f4f5f6;
 }
 
 a {
@@ -493,9 +494,18 @@ h3.story-title-culture {
 }
 
 .editor-pick > .row > div {
-  background-color: goldenrod;
-  border: 1px solid white;
-  height: 200px;
+  height: auto;
+}
+
+.cathegory-story-pick {
+  padding: 5px;
+  color: #f72210;
+  font-weight: 900;
+  text-transform: uppercase;
+  background-color:
+  #ececec;
+  bottom: 24px;
+  position: relative;
 }
 
 .featured-slideshow > .row > div {
