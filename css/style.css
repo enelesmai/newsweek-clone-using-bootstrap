@@ -621,13 +621,60 @@ h3.story-title-culture {
   height: auto;
 }
 
-.footer-head {
-  border-bottom: 1px solid #dedede;
-  height: 150px;
+.icon-footer {
+  font-size: 1.5rem;
+  color: #666;
+  padding: 10px;
 }
 
-.footer-links {
+.footer-head {
+  margin-top: 20px;
+  border-top: 2px solid #f4f5f6;
+  border-bottom: 1px solid #dedede;
   height: auto;
+  padding-top: 20px;
+}
+
+.footer-content {
+  height: auto;
+  padding-top: 10px;
+}
+
+.footer-link {
+  text-transform: none;
+}
+
+.footer-link:hover {
+  color: #000;
+}
+
+.hovfb:hover {
+  color: #3b5998;
+}
+
+.hovtw:hover {
+  color: #1da1f2;
+}
+
+.hovinst:hover {
+  color: #405de6;
+}
+
+.hovtbr:hover {
+  color: #35465c;
+}
+
+.hovin:hover {
+  color: #0077b5;
+}
+
+.logo-footer svg {
+  fill: #f72210;
+  display: block;
+  width: 236px;
+  height: 35.8px;
+  margin: 10px 20px 5px 0;
+  z-index: 1500;
 }
 
 /* Medium screen size */
