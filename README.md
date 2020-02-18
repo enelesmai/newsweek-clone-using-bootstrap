@@ -7,7 +7,7 @@ This project requests to build a replica of the news site Newsweek.com using the
 You can find the original project specification at: https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap
 
 
-![screenshot](https://user-images.githubusercontent.com/5160907/74757390-8bc96080-523b-11ea-998e-03a0dc142638.png)
+![screenshot](https://user-images.githubusercontent.com/5160907/74760115-8f5ee680-523f-11ea-98af-1655555759b6.png)
 
 ## Built With
 
