@@ -14,6 +14,7 @@ a {
 
 a:hover {
   color: #f72210;
+  text-decoration: none;
 }
 
 footer {
@@ -23,10 +24,6 @@ footer {
   height: auto;
   position: relative;
   bottom: 0;
-}
-
-a:hover {
-  text-decoration: none;
 }
 
 .wrapper {
@@ -71,7 +68,6 @@ a:hover {
 .header-bottom {
   background-color: #fff;
   width: 100%;
-  width: 100%;
   padding: 10px 0;
   border-bottom: #dedede;
 }
@@ -88,6 +84,37 @@ a:hover {
   background-color: #f72210;
   border-left: 12px solid white;
   border-top: 13px solid #f72210;
+}
+
+.featured-small-new a {
+  text-transform: none;
+}
+
+.story-title a {
+  color: #000;
+  text-transform: none;
+  font-weight: 900;
+}
+
+.story-title-culture a {
+  color: #000;
+  text-transform: none;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.story-title a:hover {
+  text-decoration: underline #f72210;
+}
+
+.story-title-culture a:hover {
+  text-decoration: none;
+}
+
+.block-title > h3 > a {
+  color: #f72210;
+  font-weight: 900;
+  text-transform: none;
+  margin-left: 15px;
 }
 
 .header-bottom > .menu > nav > a {
@@ -154,6 +181,15 @@ a:hover {
   margin: 0 auto;
 }
 
+.logo-footer svg {
+  fill: #f72210;
+  display: block;
+  width: 236px;
+  height: 35.8px;
+  margin: 10px 20px 5px 0;
+  z-index: 1500;
+}
+
 .page-header .brand svg {
   fill: white;
   display: block;
@@ -211,10 +247,6 @@ a:hover {
   border-top: none;
 }
 
-.featured-small-new a {
-  text-transform: none;
-}
-
 .featured-small-new > h4 > a:hover {
   color: #000;
   text-decoration: underline #f72210;
@@ -258,7 +290,7 @@ a:hover {
   background-image: url(https://d.newsweek.com/en/full/1567299/mother.webp?w=397&h=265&l=0&t=0&q=90&f=cd06d7519c23cf8acdc2d5f0d9ee3732);
 }
 
-.img-feat-story-top {
+.img-feat-story-top-1 {
   background-image: url(https://d.newsweek.com/en/full/1567193/bill-barr.jpg?w=591&h=364&f=05460f976ab2e23cdfd52cbec92c7cb0);
 }
 
@@ -294,29 +326,9 @@ a:hover {
   margin-left: 5px;
 }
 
-.story-title a {
-  color: #000;
-  text-transform: none;
-  font-weight: 900;
-}
-
 h3.story-title-culture {
   padding-left: 5px;
   padding-right: 5px;
-}
-
-.story-title-culture a {
-  color: #000;
-  text-transform: none;
-  font-family: 'Times New Roman', Times, serif;
-}
-
-.story-title a:hover {
-  text-decoration: underline #f72210;
-}
-
-.story-title-culture a:hover {
-  text-decoration: none;
 }
 
 .cathegory-story {
@@ -514,7 +526,7 @@ h3.story-title-culture {
 .cathegory-poster {
   margin: 15px 0;
   color: #f22;
-  padding: 5px 10xp;
+  padding: 5px 10px;
   background-color: #fff;
   font-weight: 900;
 }
@@ -529,6 +541,18 @@ h3.story-title-culture {
   box-sizing: border-box;
 }
 
+.editor-pick > .row > div {
+  height: auto;
+}
+
+.featured-slideshow > .row > div {
+  height: auto;
+}
+
+.picks-section > .row > div {
+  height: auto;
+}
+
 .poster-magazine > .row-bottom > div,
 .poster-magazine > .first-row > .secondary-poster > .row-top > div {
   height: auto;
@@ -537,10 +561,6 @@ h3.story-title-culture {
 
 .editor-pick {
   margin: 10px 0;
-  height: auto;
-}
-
-.editor-pick > .row > div {
   height: auto;
 }
 
@@ -586,10 +606,6 @@ h3.story-title-culture {
   margin-bottom: 20px;
 }
 
-.featured-slideshow > .row > div {
-  height: auto;
-}
-
 .picks-row {
   border: 1px solid #dedede;
 }
@@ -601,17 +617,6 @@ h3.story-title-culture {
 
 .no-padding-top {
   padding-top: 0;
-}
-
-.block-title > h3 > a {
-  color: #f72210;
-  font-weight: 900;
-  text-transform: none;
-  margin-left: 15px;
-}
-
-.picks-section > .row > div {
-  height: auto;
 }
 
 .list-features > ul > li {
@@ -714,15 +719,6 @@ h3.story-title-culture {
 
 .hovin:hover {
   color: #0077b5;
-}
-
-.logo-footer svg {
-  fill: #f72210;
-  display: block;
-  width: 236px;
-  height: 35.8px;
-  margin: 10px 20px 5px 0;
-  z-index: 1500;
 }
 
 /* Medium screen size */
