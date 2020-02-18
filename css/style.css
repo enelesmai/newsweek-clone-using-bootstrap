@@ -600,7 +600,7 @@ h3.story-title-culture {
 
 .list-features > ul > li {
   border-top: 1px solid #dedede;
-  height: 100px;
+  height: auto;
   margin-bottom: 10px;
 }
 
@@ -711,9 +711,25 @@ h3.story-title-culture {
 
 /* Medium screen size */
 @media (min-width: 768px) and (max-width: 991px) {
+  .subscribe-cover {
+    margin-right: 0;
+  }
 }
 
 /* Small screen size (min-width: 311px;) */
 @media (max-width: 767px) {
+  .subscribe-cover {
+    margin-right: 0;
+  }
 
+  .newsletter {
+    height: 200px;
+  }
+
+  .subscribe-text {
+    padding-top: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
 }
