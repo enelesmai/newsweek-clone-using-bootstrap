@@ -102,19 +102,19 @@ footer {
   font-family: 'Times New Roman', Times, serif;
 }
 
+.block-title > h3 > a {
+  color: #f72210;
+  font-weight: 900;
+  text-transform: none;
+  margin-left: 15px;
+}
+
 .story-title a:hover {
   text-decoration: underline #f72210;
 }
 
 .story-title-culture a:hover {
   text-decoration: none;
-}
-
-.block-title > h3 > a {
-  color: #f72210;
-  font-weight: 900;
-  text-transform: none;
-  margin-left: 15px;
 }
 
 .header-bottom > .menu > nav > a {
