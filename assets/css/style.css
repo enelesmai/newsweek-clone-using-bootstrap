@@ -545,7 +545,7 @@ h3.story-title-culture {
 .date-poster {
   position: absolute;
   left: 15px;
-  bottom: 28px;
+  bottom: 42px;
   color: #f22;
   background-color: #ececec;
   padding: 5px;
@@ -561,6 +561,7 @@ h3.story-title-culture {
   margin-left: 0;
   font-weight: 900;
   width: 100%;
+  padding: 7px 0;
 }
 
 .bottom-link:hover {
@@ -882,6 +883,20 @@ h3.story-title-culture {
   .image > a > img {
     width: 258px;
     height: 172px;
+  }
+
+  .main-poster-container {
+    width: 96%;
+    margin: 0 auto;
+  }
+
+  .main-poster {
+    height: 607px;
+    margin-top: 0;
+  }
+
+  .date-poster {
+    bottom: 34px;
   }
 
   .subscribe-cover {
