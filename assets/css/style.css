@@ -532,9 +532,7 @@ h3.story-title-culture {
 }
 
 .red-label {
-  margin: 15px 0;
   color: #fff;
-  padding: 5px 10px;
   background-color: #f22;
   font-weight: 900;
   text-transform: uppercase;
@@ -690,12 +688,12 @@ nav ul li:nth-child(9) {
 
 .subscribe-cover {
   background-color: #f4f5f6;
-  height: auto;
+  height: 100%;
   margin-right: 20px;
 }
 
 .newsletter-cover {
-  height: 90%;
+  height: 100%;
   border: 1px solid #c2d4d7;
 }
 
@@ -736,7 +734,7 @@ nav ul li:nth-child(9) {
 }
 
 .footer-head {
-  margin-top: 20px;
+  margin-top: 40px;
   border-top: 2px solid #f4f5f6;
   border-bottom: 1px solid #dedede;
   height: auto;
