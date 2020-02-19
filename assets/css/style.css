@@ -749,7 +749,10 @@ h3.story-title-culture {
 }
 
 .footer-link {
+  color: #666;
   text-transform: none;
+  padding: 0 10px;
+  line-height: 1.5;
 }
 
 .footer-link:hover {
@@ -825,6 +828,10 @@ h3.story-title-culture {
   }
 
   p {
+    font-size: 0.85rem;
+  }
+
+  span {
     font-size: 0.85rem;
   }
 
@@ -918,5 +925,9 @@ h3.story-title-culture {
     text-align: center;
     display: flex;
     align-items: center;
+  }
+
+  .nav-link {
+    border-right: none;
   }
 }
