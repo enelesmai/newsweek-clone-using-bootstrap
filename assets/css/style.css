@@ -43,12 +43,12 @@ footer {
 
 .header-top-h {
   height: 95px;
-  padding-bottom: 20px;
+  padding-bottom: 12px;
 }
 
 .header-top-hfixed {
   height: 45px;
-  padding-bottom: 10px;
+  padding-bottom: 12px;
 }
 
 .main {
@@ -739,6 +739,14 @@ h3.story-title-culture {
     display: none;
   }
 
+  #btn-menu {
+    display: block !important;
+    float: right;
+    position: relative;
+    top: -5px;
+    left: 5px;
+  }
+
   .page-header .brand svg {
     fill: white;
     display: block;
@@ -750,8 +758,13 @@ h3.story-title-culture {
 
   .header-top-h {
     height: 45px;
-    padding-bottom: 10px;
+    padding-bottom: 2px;
   }
+
+  .header-top-hfixed {
+    height: 45px;
+    padding-bottom: 2px;
+  }  
 
   .subscribe-cover {
     margin-right: 0;
@@ -768,6 +781,18 @@ h3.story-title-culture {
     display: none;
   }
 
+  .d-none {
+    display: block !important;
+  }
+
+  #btn-menu {
+    display: block;
+    float: right;
+    position: relative;
+    top: -5px;
+    left: 5px;
+  }
+
   .page-header .brand svg {
     fill: white;
     display: block;
@@ -779,8 +804,13 @@ h3.story-title-culture {
 
   .header-top-h {
     height: 45px;
-    padding-bottom: 10px;
+    padding-bottom: 2px;
   }
+
+  .header-top-hfixed {
+    height: 45px;
+    padding-bottom: 2px;
+  }  
 
   .subscribe-cover {
     margin-right: 0;
