@@ -416,6 +416,11 @@ h3.story-title-culture {
   height: auto;
 }
 
+.top-story {
+  width: 100%;
+  height: auto;
+}
+
 .culture-and-travel-section {
   margin-top: 20px;
   background-color: #f4f5f7;
@@ -821,16 +826,16 @@ h3.story-title-culture {
     display: none;
   }
 
-  .d-none {
-    display: block !important;
-  }
-
   #btn-menu {
     display: block;
     float: right;
     position: relative;
     top: -5px;
     left: 5px;
+  }
+
+  #btn-menu.d-none {
+    display: block !important;
   }
 
   .page-header .brand svg {
