@@ -903,6 +903,12 @@ h3.story-title-culture {
     margin-right: 0;
   }
 
+  .img-subs {
+    width: 75%;
+    height: 281px;
+    margin: 0 auto;  
+  }
+
   .newsletter {
     height: 200px;
   }
