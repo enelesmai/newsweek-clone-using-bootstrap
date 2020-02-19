@@ -22,7 +22,6 @@ a:hover {
 }
 
 footer {
-  background-color: #fff;
   margin-top: 5px;
   padding: 20px 30px;
   height: auto;
@@ -59,7 +58,6 @@ footer {
 .main {
   box-sizing: border-box;
   height: auto;
-  background-color: #fff;
   margin-top: 5px;
 }
 
@@ -72,7 +70,6 @@ footer {
 }
 
 .header-bottom {
-  background-color: #fff;
   width: 100%;
   padding: 10px 0;
   border-bottom: #dedede;
@@ -529,7 +526,6 @@ h3.story-title-culture {
   margin: 15px 0;
   color: #f22;
   padding: 5px 10px;
-  background-color: #fff;
   font-weight: 900;
 }
 
