@@ -1,6 +1,6 @@
 body {
   margin: 0 !important;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: Arial,Helvetica,sans-serif;
   color: #333;
   font-size: 16px;
   line-height: 20px;
@@ -10,6 +10,7 @@ body {
 a {
   color: #000;
   text-transform: uppercase;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 a:hover {
@@ -400,7 +401,7 @@ h3.story-title-culture {
   text-transform: uppercase;
   background-color: #ececec;
   position: relative;
-  bottom: 24px;
+  bottom: 23px;
 }
 
 .cathegory-story:hover {
@@ -818,6 +819,14 @@ h3.story-title-culture {
 
 /* Small screen size (min-width: 311px;) */
 @media (max-width: 767px) {
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  p {
+    font-size: 0.85rem;
+  }
+
   #date {
     display: none;
   }
@@ -856,6 +865,20 @@ h3.story-title-culture {
     height: 45px;
     padding-bottom: 2px;
   }  
+
+  .featured-small-new a {
+    font-size: 1rem;
+    font-weight: 900;
+  }
+
+  .summary {
+    font-size: 0.85rem;
+  }
+
+  .image > a > img {
+    width: 258px;
+    height: 172px;
+  }
 
   .subscribe-cover {
     margin-right: 0;
