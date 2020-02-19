@@ -38,7 +38,6 @@ footer {
 
 .header-top {
   background-color: #f72210;
-  color: #fff;
   height: auto;
   width: 100%;
   box-sizing: border-box;
@@ -517,7 +516,6 @@ h3.story-title-culture {
 }
 
 .red-label {
-  color: #fff;
   background-color: #f22;
   font-weight: 900;
 }
