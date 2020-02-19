@@ -122,26 +122,66 @@ footer {
   text-decoration: none;
 }
 
-.header-bottom > .menu > nav > a {
-  color: #000;
-  font-weight: 1000;
-  text-transform: none;
-  font-size: 20px;
+.menu nav {
+  width: 88%;
 }
 
-.header-bottom > nav > a:hover {
-  color: #f72210;
+.menu nav ul {
+  position: relative;
+  left: 15px;
+}
+
+nav ul li {
+  color: #000;
+  font-weight: 1000;
+  font-size: 20px;
+  text-align: center;
+  width: 10rem;
+}
+
+nav ul li:nth-child(1) {
+  max-width: 4.5rem;
+}
+
+nav ul li:nth-child(2),
+nav ul li:nth-child(7),
+nav ul li:nth-child(8) {
+  max-width: 5rem;
+}
+
+nav ul li:nth-child(5),
+nav ul li:nth-child(10) {
+  max-width: 6rem;
+}
+
+nav ul li:nth-child(3),
+nav ul li:nth-child(6),
+nav ul li:nth-child(11) {
+  max-width: 7rem;
+}
+
+nav ul li:nth-child(4) {
+  min-width: 8rem;
+}
+
+nav ul li:nth-child(9) {
+  max-width: 9rem;
+  min-width: 7rem;
+}
+
+nav ul li a {
+  text-transform: none;  
 }
 
 .nav-link {
   display: block;
-  padding: 0.1rem 1rem;
+  padding: 0.1rem 0;
   border-right: 1px solid #dedede;
 }
 
-.menu > nav > .nav-link:last-child {
+.menu > nav > ul > .nav-link:last-child {
   display: block;
-  padding: 0.1rem 0.5rem;
+  margin-right: 10px;
   border-right: none;
 }
 
