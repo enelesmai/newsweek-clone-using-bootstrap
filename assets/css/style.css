@@ -39,15 +39,16 @@ footer {
   width: 100%;
   box-sizing: border-box;
   margin: 0 5px 0 0;
-  padding-bottom: 20px;
 }
 
 .header-top-h {
   height: 95px;
+  padding-bottom: 20px;
 }
 
 .header-top-hfixed {
   height: 45px;
+  padding-bottom: 10px;
 }
 
 .main {
@@ -730,6 +731,28 @@ h3.story-title-culture {
 
 /* Medium screen size */
 @media (min-width: 768px) and (max-width: 991px) {
+  #date {
+    display: none;
+  }
+
+  #nav-header {
+    display: none;
+  }
+
+  .page-header .brand svg {
+    fill: white;
+    display: block;
+    width: 132px;
+    height: 20px;
+    margin: 10px 0 0 20px;
+    z-index: 1500;
+  }
+
+  .header-top-h {
+    height: 45px;
+    padding-bottom: 10px;
+  }
+
   .subscribe-cover {
     margin-right: 0;
   }
@@ -737,6 +760,28 @@ h3.story-title-culture {
 
 /* Small screen size (min-width: 311px;) */
 @media (max-width: 767px) {
+  #date {
+    display: none;
+  }
+
+  #nav-header {
+    display: none;
+  }
+
+  .page-header .brand svg {
+    fill: white;
+    display: block;
+    width: 132px;
+    height: 20px;
+    margin: 10px 0 0 20px;
+    z-index: 1500;
+  }
+
+  .header-top-h {
+    height: 45px;
+    padding-bottom: 10px;
+  }
+
   .subscribe-cover {
     margin-right: 0;
   }
