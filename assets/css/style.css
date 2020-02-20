@@ -54,7 +54,8 @@ footer {
   left: 0;
 }
 
-.header-bottom {
+.header-bottom,
+.menu {
   width: 100%;
 }
 
@@ -69,10 +70,6 @@ footer {
   background-color: #f72210;
   border-left: 12px solid white;
   border-top: 11px solid #f72210;
-}
-
-.menu {
-  width: 100%;
 }
 
 .story-title-culture a {
@@ -161,11 +158,6 @@ footer {
 .featured-stories-box {
   height: auto;
   width: auto;
-}
-
-.opinion-box > .featured-small-new,
-.more-stories-section > .featured-small-new {
-  border-bottom: none;
 }
 
 .opinion-box > .featured-small-new:first-child {
