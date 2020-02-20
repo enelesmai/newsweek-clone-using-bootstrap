@@ -563,7 +563,6 @@ nav ul li:nth-child(9) {
     fill: white;
     width: 132px;
     height: 20px;
-    margin: 10px 0 0 20px;
     z-index: 1500;
   }
 
@@ -625,7 +624,6 @@ nav ul li:nth-child(9) {
     display: block;
     width: 132px;
     height: 20px;
-    margin: 10px 0 0 20px;
     z-index: 1500;
   }
 
@@ -670,10 +668,6 @@ nav ul li:nth-child(9) {
     bottom: 34px;
   }
 
-  .subscribe-cover {
-    margin-right: 0;
-  }
-
   .img-subs {
     width: 75%;
     height: 281px;
@@ -682,11 +676,6 @@ nav ul li:nth-child(9) {
 
   .newsletter {
     height: 200px;
-  }
-
-  .subscribe-text {
-    padding-top: 20px;
-    align-items: center;
   }
 
   .nav-link {
