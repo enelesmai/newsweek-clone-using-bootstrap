@@ -149,7 +149,6 @@ footer {
 .poster-magazine > .row-bottom > div,
 .poster-magazine > .first-row > .secondary-poster > .row-top > div,
 .editor-pick,
-.list-features > ul > li,
 .newsletter,
 .footer-content {
   height: auto;
@@ -446,6 +445,10 @@ nav ul li:nth-child(4) {
 nav ul li:nth-child(9) {
   max-width: 9rem;
   min-width: 7rem;
+}
+
+.list-features > ul > li {
+  height: auto;
 }
 
 .list-features > ul > li:first-child {
