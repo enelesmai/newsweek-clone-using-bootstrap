@@ -95,11 +95,6 @@ footer {
   text-transform: none;
 }
 
-.story-title a {
-  text-transform: none;
-  font-weight: 900;
-}
-
 .story-title-culture a {
   text-transform: none;
   font-family: 'Times New Roman', Times, serif;
@@ -107,7 +102,6 @@ footer {
 
 .block-title > h3 > a {
   color: #f72210;
-  font-weight: 900;
   text-transform: none;
   margin-left: 15px;
 }
@@ -171,10 +165,8 @@ footer {
 }
 
 .page-header .link-btn-white {
-  background-color: white;
   color: #f72210;
   padding: 5px 10px;
-  font-weight: 800;
 }
 
 .brand {
@@ -233,7 +225,6 @@ footer {
 
 .featured-small-new {
   padding: 10px 0;
-  font-weight: 900;
   border-top: 1px solid #dedede;
   border-bottom: 1px solid #dedede;
 }
@@ -329,7 +320,6 @@ h3.story-title-culture {
 .cathegory-story {
   padding: 5px;
   color: #f72210;
-  font-weight: 900;
   background-color: #ececec;
 }
 
@@ -342,7 +332,6 @@ h3.story-title-culture {
 .cathegory-sponsored {
   padding: 5px;
   color: #3581f4;
-  font-weight: 900;
   background-color: #ececec;
   position: relative;
   bottom: 23px;
@@ -387,10 +376,6 @@ h3.story-title-culture {
 .image-opinion > a > img {
   width: 63px;
   height: 63px;
-}
-
-.summary {
-  font-weight: 400;
 }
 
 .featured-opinion {
@@ -491,14 +476,12 @@ h3.story-title-culture {
   color: #f22;
   background-color: #ececec;
   padding: 5px;
-  font-weight: 900;
 }
 
 .bottom-link {
   display: block;
   background-color: #dedede;
   margin-left: 0;
-  font-weight: 900;
   width: 100%;
   padding: 7px 0;
 }
@@ -510,14 +493,12 @@ h3.story-title-culture {
 
 .red-label {
   background-color: #f22;
-  font-weight: 900;
 }
 
 .cathegory-poster {
   margin: 15px 0;
   color: #f22;
   padding: 5px 10px;
-  font-weight: 900;
 }
 
 .label-row {
@@ -553,15 +534,6 @@ h3.story-title-culture {
   height: auto;
 }
 
-.cathegory-story-pick {
-  padding: 5px;
-  color: #f72210;
-  font-weight: 900;
-  background-color: #ececec;
-  bottom: 24px;
-  position: relative;
-}
-
 .img-slide {
   width: 100%;
   height: 265px;
@@ -574,7 +546,6 @@ h3.story-title-culture {
   position: relative;
   bottom: 52px;
   left: 0;
-  font-weight: bold;
   font-size: 20px;
   line-height: 58px;
   text-indent: 5px;
@@ -597,7 +568,6 @@ h3.story-title-culture {
 
 .featured-small-list {
   padding: 10px 0;
-  font-weight: 900;
 }
 
 .no-padding-top {
@@ -605,7 +575,6 @@ h3.story-title-culture {
 }
 
 nav ul li {
-  font-weight: 1000;
   font-size: 20px;
   width: 10rem;
 }
@@ -667,7 +636,6 @@ nav ul li:nth-child(9) {
 
 .subscribe-title {
   color: #f72210;
-  font-weight: 900;
 }
 
 .img-subs {
@@ -845,7 +813,6 @@ nav ul li:nth-child(9) {
 
   .featured-small-new a {
     font-size: 1rem;
-    font-weight: 900;
   }
 
   .summary {
