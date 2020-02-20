@@ -664,8 +664,4 @@ nav ul li:nth-child(9) {
   .newsletter {
     height: 200px;
   }
-
-  .nav-link {
-    border-right: none;
-  }
 }
