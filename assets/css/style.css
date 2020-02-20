@@ -1,5 +1,4 @@
 body {
-  margin: 0 !important;
   font-family: Arial, Helvetica, sans-serif;
   color: #333;
   font-size: 16px;
@@ -17,7 +16,6 @@ a:hover {
 }
 
 footer {
-  margin-top: 5px;
   padding: 20px 30px;
   height: auto;
   position: relative;
@@ -28,7 +26,6 @@ footer {
   max-width: 1310px;
   min-width: 480px;
   height: auto;
-  margin: 0 auto;
 }
 
 .header-top {
@@ -36,7 +33,6 @@ footer {
   height: auto;
   width: 100%;
   box-sizing: border-box;
-  margin: 0 5px 0 0;
 }
 
 .header-top-h {
@@ -52,13 +48,11 @@ footer {
 .main {
   box-sizing: border-box;
   height: auto;
-  margin-top: 5px;
 }
 
 .header-center {
   position: absolute;
   top: 0;
-  margin: 0 auto;
   width: 100%;
   left: 0;
 }
@@ -91,7 +85,6 @@ footer {
 
 .block-title > h3 > a {
   color: #f72210;
-  margin-left: 15px;
 }
 
 .story-title a:hover {
@@ -125,19 +118,6 @@ footer {
   width: 60px;
 }
 
-.margin-left {
-  margin-left: 0;
-}
-
-.title-section {
-  margin-top: 20px;
-}
-
-.title-section > h3 {
-  margin: 0 0 0 10px;
-  align-content: center;
-}
-
 .page-header {
   background-color: #f72210;
 }
@@ -151,15 +131,10 @@ footer {
   padding: 5px 10px;
 }
 
-.brand {
-  margin: 0 auto;
-}
-
 .logo-footer svg {
   fill: #f72210;
   width: 236px;
   height: 35.8px;
-  margin: 10px 20px 5px 0;
   z-index: 1500;
 }
 
@@ -167,7 +142,6 @@ footer {
   fill: white;
   width: 396px;
   height: 85px;
-  margin: 10px auto 0;
   z-index: 1500;
 }
 
@@ -197,10 +171,6 @@ footer {
   height: auto;
   width: auto;
   padding-top: 10px;
-}
-
-.culture-box {
-  margin-bottom: 20px;
 }
 
 .featured-small-new {
@@ -286,10 +256,6 @@ footer {
   padding-right: 5px;
 }
 
-.margin-left-5px {
-  margin-left: 5px;
-}
-
 h3.story-title-culture {
   padding-left: 5px;
   padding-right: 5px;
@@ -334,7 +300,6 @@ h3.story-title-culture {
 }
 
 .culture-and-travel-section {
-  margin-top: 20px;
   background-color: #f4f5f7;
 }
 
@@ -343,7 +308,6 @@ h3.story-title-culture {
   width: auto;
   height: auto;
   float: left;
-  margin-right: 5px;
 }
 
 .image > a > img {
@@ -363,7 +327,6 @@ h3.story-title-culture {
 .sponsored-insight-box {
   height: auto;
   width: auto;
-  margin: 20px 0;
 }
 
 .img-sponsored {
@@ -427,7 +390,6 @@ h3.story-title-culture {
   background-size: cover;
   height: 387px;
   padding: 20px;
-  margin-top: 45px;
 }
 
 .fill-content {
@@ -444,7 +406,7 @@ h3.story-title-culture {
 .date-poster {
   position: absolute;
   left: 15px;
-  bottom: 42px;
+  bottom: 70px;
   color: #f22;
   background-color: #ececec;
   padding: 5px;
@@ -452,7 +414,6 @@ h3.story-title-culture {
 
 .bottom-link {
   background-color: #dedede;
-  margin-left: 0;
   width: 100%;
   padding: 7px 0;
 }
@@ -467,13 +428,8 @@ h3.story-title-culture {
 }
 
 .cathegory-poster {
-  margin: 15px 0;
   color: #f22;
   padding: 5px 10px;
-}
-
-.label-row {
-  margin: 10px 0;
 }
 
 .first-row,
@@ -497,11 +453,9 @@ h3.story-title-culture {
 .poster-magazine > .row-bottom > div,
 .poster-magazine > .first-row > .secondary-poster > .row-top > div {
   height: auto;
-  margin-top: 10px;
 }
 
 .editor-pick {
-  margin: 10px 0;
   height: auto;
 }
 
@@ -528,10 +482,6 @@ h3.story-title-culture {
   margin-top: -44px;
 }
 
-.border-bottom-section {
-  margin-bottom: 20px;
-}
-
 .featured-small-list {
   padding: 10px 0;
 }
@@ -547,7 +497,6 @@ nav ul li {
 
 .list-features > ul > li {
   height: auto;
-  margin-bottom: 10px;
 }
 
 nav ul li:nth-child(1) {
@@ -587,7 +536,6 @@ nav ul li:nth-child(9) {
 .subscribe-cover {
   background-color: #f4f5f6;
   height: 100%;
-  margin-right: 20px;
 }
 
 .newsletter-cover {
