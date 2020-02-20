@@ -16,7 +16,6 @@ a:hover {
 }
 
 footer {
-  padding: 20px 30px;
   height: auto;
   position: relative;
   bottom: 0;
@@ -37,12 +36,10 @@ footer {
 
 .header-top-h {
   height: 95px;
-  padding-bottom: 12px;
 }
 
 .header-top-hfixed {
   height: 45px;
-  padding-bottom: 12px;
 }
 
 .main {
@@ -59,7 +56,6 @@ footer {
 
 .header-bottom {
   width: 100%;
-  padding: 10px 0;
 }
 
 .tab-draw {
@@ -67,12 +63,12 @@ footer {
   width: 75px;
   height: 10px;
   position: relative;
-  top: -10px;
+  top: -8px;
   right: 0;
   content: "";
   background-color: #f72210;
   border-left: 12px solid white;
-  border-top: 13px solid #f72210;
+  border-top: 11px solid #f72210;
 }
 
 .menu {
@@ -104,10 +100,6 @@ footer {
   left: 15px;
 }
 
-.nav-link {
-  padding: 0.1rem 0;
-}
-
 .menu > nav > ul > .nav-link:last-child {
   display: block;
   margin-right: 10px;
@@ -122,13 +114,8 @@ footer {
   background-color: #f72210;
 }
 
-.page-header .link-white {
-  padding: 5px 10px;
-}
-
 .page-header .link-btn-white {
   color: #f72210;
-  padding: 5px 10px;
 }
 
 .logo-footer svg {
@@ -156,7 +143,6 @@ footer {
 
 .featured-content {
   height: auto;
-  padding-top: 10px;
 }
 
 .featured-post {
@@ -170,11 +156,6 @@ footer {
 .featured-stories-box {
   height: auto;
   width: auto;
-  padding-top: 10px;
-}
-
-.featured-small-new {
-  padding: 10px 0;
 }
 
 .opinion-box > .featured-small-new,
@@ -248,17 +229,6 @@ footer {
 .section-title {
   color: rgba(3, 3, 3, 0.4);
   font: bold 16px/16px "Roboto Condensed", sans-serif;
-  padding: 11px 0;
-}
-
-.culture-text {
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-h3.story-title-culture {
-  padding-left: 5px;
-  padding-right: 5px;
 }
 
 .cathegory-story {
@@ -268,13 +238,11 @@ h3.story-title-culture {
 }
 
 .cathegory-culture {
-  padding: 5px;
   color: #333;
   background-color: #c2d4d7;
 }
 
 .cathegory-sponsored {
-  padding: 5px;
   color: #3581f4;
   background-color: #ececec;
   position: relative;
@@ -336,7 +304,6 @@ h3.story-title-culture {
 }
 
 .sponsored-summary {
-  padding: 0 20px;
   top: -20px;
   position: relative;
 }
@@ -389,7 +356,6 @@ h3.story-title-culture {
   background-image: url(https://d.newsweek.com/en/full/1566954/february-21-28-2020-cover.webp?w=290&h=387&q=90&f=0363d8cbe76b3b59e3ad0c42e5fd5c73);
   background-size: cover;
   height: 387px;
-  padding: 20px;
 }
 
 .fill-content {
@@ -409,13 +375,11 @@ h3.story-title-culture {
   bottom: 70px;
   color: #f22;
   background-color: #ececec;
-  padding: 5px;
 }
 
 .bottom-link {
   background-color: #dedede;
   width: 100%;
-  padding: 7px 0;
 }
 
 .bottom-link:hover {
@@ -429,7 +393,6 @@ h3.story-title-culture {
 
 .cathegory-poster {
   color: #f22;
-  padding: 5px 10px;
 }
 
 .first-row,
@@ -480,14 +443,6 @@ h3.story-title-culture {
 
 .top-slide {
   margin-top: -44px;
-}
-
-.featured-small-list {
-  padding: 10px 0;
-}
-
-.no-padding-top {
-  padding-top: 0;
 }
 
 nav ul li {
@@ -573,23 +528,19 @@ nav ul li:nth-child(9) {
 .icon-footer {
   font-size: 1.5rem;
   color: #666;
-  padding: 10px;
 }
 
 .footer-head {
   margin-top: 40px;
   height: auto;
-  padding-top: 20px;
 }
 
 .footer-content {
   height: auto;
-  padding-top: 10px;
 }
 
 .footer-link {
   color: #666;
-  padding: 0 10px;
   line-height: 1.5;
 }
 
