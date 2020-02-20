@@ -134,7 +134,6 @@ footer {
   display: block;
   width: 132px;
   height: 20px;
-  margin: 10px 0 0 10px;
   z-index: 1500;
 }
 
@@ -576,10 +575,6 @@ nav ul li:nth-child(9) {
   .date-poster {
     bottom: 72px;
   }
-
-  .subscribe-cover {
-    margin-right: 0;
-  }
 }
 
 /* Small screen size (min-width: 311px;) */
@@ -651,12 +646,10 @@ nav ul li:nth-child(9) {
 
   .main-poster-container {
     width: 96%;
-    margin: 0 auto;
   }
 
   .main-poster {
     height: 607px;
-    margin-top: 0;
   }
 
   .date-poster {
@@ -666,7 +659,6 @@ nav ul li:nth-child(9) {
   .img-subs {
     width: 75%;
     height: 281px;
-    margin: 0 auto;
   }
 
   .newsletter {
