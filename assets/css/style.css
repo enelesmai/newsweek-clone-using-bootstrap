@@ -11,10 +11,6 @@ a {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-nav ul li a {
-  text-transform: none;
-}
-
 a:hover {
   color: #f72210;
   text-decoration: none;
@@ -90,18 +86,12 @@ footer {
   width: 100%;
 }
 
-.featured-small-new a {
-  text-transform: none;
-}
-
 .story-title-culture a {
-  text-transform: none;
   font-family: 'Times New Roman', Times, serif;
 }
 
 .block-title > h3 > a {
   color: #f72210;
-  text-transform: none;
   margin-left: 15px;
 }
 
@@ -143,7 +133,6 @@ footer {
 
 .title-section {
   margin-top: 20px;
-  border-bottom: 1px solid #ececec;
 }
 
 .title-section > h3 {
@@ -603,10 +592,6 @@ nav ul li:nth-child(9) {
   min-width: 7rem;
 }
 
-.list-features > ul > li > .featured-small-list > a {
-  text-transform: none;
-}
-
 .list-features > ul > li:first-child {
   border-top: 0;
 }
@@ -668,7 +653,6 @@ nav ul li:nth-child(9) {
 
 .footer-link {
   color: #666;
-  text-transform: none;
   padding: 0 10px;
   line-height: 1.5;
 }
