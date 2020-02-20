@@ -143,7 +143,6 @@ footer {
 
 .input-search {
   border: none;
-  text-align: right;
   width: 60px;
 }
 
@@ -498,7 +497,6 @@ h3.story-title-culture {
 .bottom-link {
   display: block;
   background-color: #dedede;
-  text-align: center;
   margin-left: 0;
   font-weight: 900;
   width: 100%;
@@ -580,7 +578,6 @@ h3.story-title-culture {
   font-size: 20px;
   line-height: 58px;
   text-indent: 5px;
-  text-align: center;
   background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
   color: #e9212e;
 }
@@ -610,7 +607,6 @@ h3.story-title-culture {
 nav ul li {
   font-weight: 1000;
   font-size: 20px;
-  text-align: center;
   width: 10rem;
 }
 
@@ -891,7 +887,6 @@ nav ul li:nth-child(9) {
 
   .subscribe-text {
     padding-top: 20px;
-    text-align: center;
     align-items: center;
   }
 
