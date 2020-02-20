@@ -8,7 +8,6 @@ body {
 }
 
 a {
-  color: #000;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -97,13 +96,11 @@ footer {
 }
 
 .story-title a {
-  color: #000;
   text-transform: none;
   font-weight: 900;
 }
 
 .story-title-culture a {
-  color: #000;
   text-transform: none;
   font-family: 'Times New Roman', Times, serif;
 }
@@ -161,7 +158,6 @@ footer {
 
 .title-section > h3 {
   margin: 0 0 0 10px;
-  color: #000;
   align-content: center;
 }
 
@@ -501,7 +497,6 @@ h3.story-title-culture {
 
 .bottom-link {
   display: block;
-  color: #000;
   background-color: #dedede;
   text-align: center;
   margin-left: 0;
@@ -511,7 +506,7 @@ h3.story-title-culture {
 }
 
 .bottom-link:hover {
-  color: #000;
+  color: #111;
   background-color: #ccc;
 }
 
@@ -613,7 +608,6 @@ h3.story-title-culture {
 }
 
 nav ul li {
-  color: #000;
   font-weight: 1000;
   font-size: 20px;
   text-align: center;
