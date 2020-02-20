@@ -76,7 +76,6 @@ footer {
   top: -10px;
   right: 0;
   content: "";
-  display: block;
   background-color: #f72210;
   border-left: 12px solid white;
   border-top: 13px solid #f72210;
@@ -113,7 +112,6 @@ footer {
 }
 
 .nav-link {
-  display: block;
   padding: 0.1rem 0;
 }
 
@@ -159,7 +157,6 @@ footer {
 
 .logo-footer svg {
   fill: #f72210;
-  display: block;
   width: 236px;
   height: 35.8px;
   margin: 10px 20px 5px 0;
@@ -168,7 +165,6 @@ footer {
 
 .page-header .brand svg {
   fill: white;
-  display: block;
   width: 396px;
   height: 85px;
   margin: 10px auto 0;
@@ -364,10 +360,6 @@ h3.story-title-culture {
   height: auto;
 }
 
-.block {
-  display: block;
-}
-
 .sponsored-insight-box {
   height: auto;
   width: auto;
@@ -415,7 +407,6 @@ h3.story-title-culture {
 }
 
 .icon-n {
-  display: inline-block;
   width: 33px;
   height: 32px;
   background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
@@ -460,7 +451,6 @@ h3.story-title-culture {
 }
 
 .bottom-link {
-  display: block;
   background-color: #dedede;
   margin-left: 0;
   width: 100%;
@@ -699,7 +689,6 @@ nav ul li:nth-child(9) {
 
   .page-header .brand svg {
     fill: white;
-    display: block;
     width: 132px;
     height: 20px;
     margin: 10px 0 0 20px;
