@@ -228,9 +228,14 @@ footer {
 }
 
 .cathegory-story {
-  padding: 5px;
   color: #f72210;
   background-color: #ececec;
+}
+
+.cathegory-story-pick {
+  color: #f72210;
+  background-color: #ececec;
+  bottom: 27px;
 }
 
 .cathegory-culture {
@@ -537,6 +542,15 @@ nav ul li:nth-child(9) {
     display: none;
   }
 
+  .page-header .link-btn-white {
+    bottom: -2px;
+    position: relative;
+  }
+
+  .link-white {
+    bottom: -2px;
+  }
+
   #btn-menu {
     display: block !important;
     float: right;
@@ -561,6 +575,10 @@ nav ul li:nth-child(9) {
   .header-top-hfixed {
     height: 45px;
     padding-bottom: 2px;
+  }
+
+  .date-poster {
+    bottom: 72px;
   }
 
   .subscribe-cover {
