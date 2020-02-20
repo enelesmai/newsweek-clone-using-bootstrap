@@ -417,6 +417,10 @@ nav ul li {
   width: 10rem;
 }
 
+.list-features > ul > li {
+  height: auto;
+}
+
 nav ul li:nth-child(1) {
   max-width: 4.5rem;
 }
@@ -445,10 +449,6 @@ nav ul li:nth-child(4) {
 nav ul li:nth-child(9) {
   max-width: 9rem;
   min-width: 7rem;
-}
-
-.list-features > ul > li {
-  height: auto;
 }
 
 .list-features > ul > li:first-child {
