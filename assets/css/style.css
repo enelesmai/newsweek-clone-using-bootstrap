@@ -547,6 +547,7 @@ nav ul li:nth-child(9) {
 
   .link-white {
     bottom: -2px;
+    position: relative;
   }
 
   #btn-menu {
