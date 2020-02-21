@@ -1,0 +1,674 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #f4f5f6;
+}
+
+a {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+a:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+footer {
+  height: auto;
+  position: relative;
+  bottom: 0;
+}
+
+.wrapper {
+  max-width: 1310px;
+  min-width: 480px;
+  height: auto;
+}
+
+.header-top {
+  background-color: #f72210;
+  height: auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.header-top-h {
+  height: 95px;
+}
+
+.header-top-hfixed {
+  height: 45px;
+}
+
+.main {
+  box-sizing: border-box;
+  height: auto;
+}
+
+.header-center {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  left: 0;
+}
+
+.header-bottom,
+.menu {
+  width: 100%;
+}
+
+.tab-draw {
+  float: right;
+  width: 75px;
+  height: 10px;
+  position: relative;
+  top: -8px;
+  right: 0;
+  content: "";
+  background-color: #f72210;
+  border-left: 12px solid white;
+  border-top: 11px solid #f72210;
+}
+
+.story-title-culture a {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.block-title > h3 > a {
+  color: #f72210;
+}
+
+.story-title a:hover {
+  text-decoration: underline #f72210;
+}
+
+.story-title-culture a:hover {
+  text-decoration: none;
+}
+
+.menu nav {
+  width: 88%;
+}
+
+.menu nav ul {
+  position: relative;
+  left: 15px;
+}
+
+.menu > nav > ul > .nav-link:last-child {
+  display: block;
+  margin-right: 10px;
+  border-right: none;
+}
+
+.input-search {
+  width: 60px;
+}
+
+.page-header {
+  background-color: #f72210;
+}
+
+.page-header .link-btn-white {
+  color: #f72210;
+}
+
+.logo-footer svg {
+  fill: #f72210;
+  width: 236px;
+  height: 35.8px;
+  z-index: 1500;
+}
+
+.page-header .brand svg {
+  fill: white;
+  width: 396px;
+  height: 85px;
+  z-index: 1500;
+}
+
+.page-header .brand-fixed svg {
+  fill: white;
+  display: block;
+  width: 132px;
+  height: 20px;
+  z-index: 1500;
+}
+
+.featured-content,
+.featured-post,
+.featured-stories,
+.featured-various,
+.featured-opinion,
+.editor-pick > .row > div,
+.featured-slideshow > .row > div,
+.picks-section > .row > div,
+.poster-magazine > .row-bottom > div,
+.poster-magazine > .first-row > .secondary-poster > .row-top > div,
+.editor-pick,
+.newsletter,
+.footer-content {
+  height: auto;
+}
+
+.featured-stories-box {
+  height: auto;
+  width: auto;
+}
+
+.opinion-box > .featured-small-new:first-child {
+  border-top: none;
+}
+
+.featured-small-new > h4 > a:hover {
+  color: #000;
+  text-decoration: underline #f72210;
+}
+
+.story-h {
+  height: 229px;
+}
+
+.img-feat-story {
+  width: 100%;
+  background-size: cover;
+}
+
+.img-feat-story-top {
+  width: 100%;
+  height: 312px;
+  background-size: cover;
+}
+
+.img-culture {
+  width: 100%;
+  height: 162px;
+  background-size: cover;
+}
+
+.img-feat-story-1 {
+  background-image: url(https://d.newsweek.com/en/full/1567228/bernie-sanders.jpg?w=397&h=265&q=90&f=8211f048a2ca881057c7251a12a4ebc4);
+}
+
+.img-feat-story-2 {
+  background-image: url(https://d.newsweek.com/en/full/1567290/kim-jong-un-north-korea-icbm-tests.jpg?w=397&h=265&q=90&f=5d5de304ad69a82d0d2ab9d2b403b43e);
+}
+
+.img-feat-story-3 {
+  background-image: url(https://d.newsweek.com/en/full/1567196/donald-trump.webp?w=397&h=265&q=90&f=c897af14405a1594974d1992994c4735);
+}
+
+.img-feat-story-4 {
+  background-image: url(https://d.newsweek.com/en/full/1567299/mother.webp?w=397&h=265&l=0&t=0&q=90&f=cd06d7519c23cf8acdc2d5f0d9ee3732);
+}
+
+.img-feat-story-top-1 {
+  background-image: url(https://d.newsweek.com/en/full/1567193/bill-barr.jpg?w=591&h=364&f=05460f976ab2e23cdfd52cbec92c7cb0);
+}
+
+.img-culture-1 {
+  background-image: url(https://d.newsweek.com/en/full/1552293/cul-map-underwater-banner.webp?w=397&h=265&f=556690dba11324f197a04f43aadde8fa);
+}
+
+.img-culture-2 {
+  background-image: url(https://d.newsweek.com/en/full/1542818/vineyard-remy-martin.webp?w=397&h=265&f=d9d3a493c4818bedce1a45fc03bbab38);
+}
+
+.img-culture-3 {
+  background-image: url(https://d.newsweek.com/en/full/1564962/cul-map-undergroundsubways-09-91029419.webp?w=397&h=265&f=c75ea7fe40bca26ffbb19f21fccf1054);
+}
+
+.img-culture-4 {
+  background-image: url(https://d.newsweek.com/en/full/1556716/twa-hotel.webp?w=397&h=265&f=7af1ce5444b4a2b638b278b6207aeb3a);
+}
+
+.section-title {
+  color: rgba(3, 3, 3, 0.4);
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
+}
+
+.cathegory-story {
+  color: #f72210;
+  background-color: #ececec;
+}
+
+.cathegory-story-pick {
+  color: #f72210;
+  background-color: #ececec;
+  bottom: 27px;
+}
+
+.cathegory-culture {
+  color: #333;
+  background-color: #c2d4d7;
+}
+
+.cathegory-sponsored {
+  color: #3581f4;
+  background-color: #ececec;
+  position: relative;
+  bottom: 23px;
+}
+
+.cathegory-story:hover {
+  color: #f72210;
+}
+
+.cathegory-culture:hover {
+  color: #fff;
+  background-color: #333;
+}
+
+.top-story {
+  width: 100%;
+  height: auto;
+}
+
+.culture-and-travel-section {
+  background-color: #f4f5f7;
+}
+
+.image,
+.image-opinion {
+  width: auto;
+  height: auto;
+  float: left;
+}
+
+.image > a > img {
+  width: 135px;
+  height: 90px;
+}
+
+.image-opinion > a > img {
+  width: 63px;
+  height: 63px;
+}
+
+.sponsored-insight-box {
+  height: auto;
+  width: auto;
+}
+
+.img-sponsored {
+  width: 100%;
+  height: 228px;
+  background-size: cover;
+}
+
+.sponsored-summary {
+  top: -20px;
+  position: relative;
+}
+
+.img-sponsored-1 {
+  background-image: url(https://d.newsweek.com/en/full/1561558/saudi-picture.jpg?w=343&amp;h=229&amp;f=c38d1701b1898e7dcc79c2e2dc3aef4a);
+}
+
+.img-sponsored-2 {
+  background-image: url(https://d.newsweek.com/en/full/1556483/south-texas-college-law-houston.png?w=343&amp;h=229&amp;f=38b5405ad57bd1cc7a6189c49f06e358);
+}
+
+.img-sponsored-3 {
+  background-image: url(https://d.newsweek.com/en/full/1551978/media-school-indiana-university.jpg?w=343&amp;h=229&amp;f=2acd7418079f8cde5545fea5bb3815bd);
+}
+
+.img-sponsored-4 {
+  background-image: url(https://d.newsweek.com/en/full/1550618/americas-most-responsible-companies-2020.jpg?w=343&amp;h=229&amp;f=228a31483952835462a9e24494fc24f7);
+}
+
+.img-sponsored-5 {
+  background-image: url(https://d.newsweek.com/en/full/1559216/tokyo-my-city-chizu-nakamoto.jpg?w=343&amp;h=229&amp;f=9001796ad87af5440a19c713ba2fc017);
+}
+
+.img-sponsored-6 {
+  background-image: url(https://d.newsweek.com/en/full/1563523/meet-adam-lambert-new-york-city.png?w=343&amp;h=229&amp;f=5650ee55eada1c2dbd4be78a28f9d8d0);
+}
+
+.img-sponsored-7 {
+  background-image: url(https://d.newsweek.com/en/full/1562518/teach-now-2.jpg?w=343&amp;h=229&amp;f=49b15e13ed47a3d450013239f0af77cf);
+}
+
+.icon-n {
+  width: 33px;
+  height: 32px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+}
+
+.poster-magazine {
+  height: auto;
+  box-sizing: border-box;
+}
+
+.main-poster-container {
+  width: 88%;
+  height: auto;
+}
+
+.main-poster {
+  background-image: url(https://d.newsweek.com/en/full/1566954/february-21-28-2020-cover.webp?w=290&h=387&q=90&f=0363d8cbe76b3b59e3ad0c42e5fd5c73);
+  background-size: cover;
+  height: 347px;
+}
+
+.fill-content {
+  width: 100%;
+  height: auto;
+}
+
+.img-poster {
+  background-size: cover;
+  width: 100%;
+}
+
+.date-poster {
+  position: absolute;
+  left: 15px;
+  bottom: 36px;
+  color: #f22;
+  background-color: #ececec;
+}
+
+.bottom-link {
+  background-color: #dedede;
+  width: 100%;
+}
+
+.bottom-link:hover {
+  color: #111;
+  background-color: #ccc;
+}
+
+.red-label {
+  background-color: #f22;
+}
+
+.cathegory-poster {
+  color: #f22;
+}
+
+.first-row,
+.row-top,
+.row-bottom {
+  box-sizing: border-box;
+}
+
+.img-slide {
+  width: 100%;
+  background-size: cover;
+}
+
+.slide-label {
+  width: 70px;
+  height: 52px;
+  position: relative;
+  bottom: 52px;
+  left: 0;
+  font-size: 20px;
+  line-height: 58px;
+  text-indent: 5px;
+  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
+  color: #e9212e;
+}
+
+.top-slide {
+  margin-top: -44px;
+}
+
+nav ul li {
+  font-size: 20px;
+  width: 10rem;
+}
+
+.list-features > ul > li {
+  height: auto;
+}
+
+nav ul li:nth-child(1) {
+  max-width: 4.5rem;
+}
+
+nav ul li:nth-child(2),
+nav ul li:nth-child(7),
+nav ul li:nth-child(8) {
+  max-width: 5rem;
+}
+
+nav ul li:nth-child(5),
+nav ul li:nth-child(10) {
+  max-width: 6rem;
+}
+
+nav ul li:nth-child(3),
+nav ul li:nth-child(6),
+nav ul li:nth-child(11) {
+  max-width: 7rem;
+}
+
+nav ul li:nth-child(4) {
+  min-width: 9rem;
+}
+
+nav ul li:nth-child(9) {
+  max-width: 9rem;
+  min-width: 7rem;
+}
+
+.list-features > ul > li:first-child {
+  border-top: 0;
+}
+
+.subscribe-cover {
+  background-color: #f4f5f6;
+  height: 100%;
+}
+
+.newsletter-cover {
+  height: 100%;
+}
+
+.subscribe-title {
+  color: #f72210;
+}
+
+.img-subs {
+  width: 100%;
+  height: 241px;
+  background-image: url(../images/news.PNG);
+  background-size: cover;
+}
+
+.img-newsletter {
+  background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&amp;h=265&amp;q=90&amp;f=742bce9a6f72dd8f19ba2e7fd5db06e5) no-repeat scroll center center / cover;
+}
+
+.btn-red {
+  width: 126px;
+}
+
+.btn-red:hover {
+  width: 126px;
+  color: #fff;
+}
+
+.icon-footer {
+  font-size: 1.5rem;
+  color: #666;
+}
+
+.footer-head {
+  margin-top: 40px;
+  height: auto;
+}
+
+.footer-link {
+  color: #666;
+  line-height: 1.5;
+}
+
+.footer-link:hover {
+  color: #000;
+}
+
+.hovfb:hover {
+  color: #3b5998;
+}
+
+.hovtw:hover {
+  color: #1da1f2;
+}
+
+.hovinst:hover {
+  color: #405de6;
+}
+
+.hovtbr:hover {
+  color: #35465c;
+}
+
+.hovin:hover {
+  color: #0077b5;
+}
+
+/* Medium screen size */
+@media (min-width: 768px) and (max-width: 991px) {
+  #date {
+    display: none;
+  }
+
+  #nav-header {
+    display: none;
+  }
+
+  .page-header .link-btn-white {
+    bottom: -2px;
+    position: relative;
+  }
+
+  .link-white {
+    bottom: -2px;
+    position: relative;
+  }
+
+  #btn-menu {
+    display: block !important;
+    float: right;
+    position: relative;
+    top: -5px;
+    left: 5px;
+  }
+
+  .page-header .brand svg {
+    fill: white;
+    width: 132px;
+    height: 20px;
+    z-index: 1500;
+  }
+
+  .header-top-h {
+    height: 45px;
+  }
+
+  .header-top-hfixed {
+    height: 45px;
+  }
+
+  .date-poster {
+    bottom: 36px;
+  }
+
+  .main-poster {
+    height: 307px;
+  }
+}
+
+/* Small screen size (min-width: 311px;) */
+@media (max-width: 767px) {
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  p {
+    font-size: 0.85rem;
+  }
+
+  span {
+    font-size: 0.85rem;
+  }
+
+  #date {
+    display: none;
+  }
+
+  #nav-header {
+    display: none;
+  }
+
+  #btn-menu {
+    display: block;
+    float: right;
+    position: relative;
+    top: -5px;
+    left: 5px;
+  }
+
+  #btn-menu.d-none {
+    display: block !important;
+  }
+
+  .page-header .brand svg {
+    fill: white;
+    display: block;
+    width: 132px;
+    height: 20px;
+    z-index: 1500;
+  }
+
+  .header-top-h {
+    height: 45px;
+  }
+
+  .header-top-hfixed {
+    height: 45px;
+  }
+
+  .img-culture {
+    height: 303px;
+  }
+
+  .featured-small-new a {
+    font-size: 1rem;
+  }
+
+  .summary {
+    font-size: 0.85rem;
+  }
+
+  .image > a > img {
+    width: 258px;
+    height: 172px;
+  }
+
+  .main-poster-container {
+    width: 96%;
+  }
+
+  .main-poster {
+    height: 787px;
+  }
+
+  .date-poster {
+    bottom: 34px;
+  }
+
+  .img-subs {
+    width: 75%;
+    height: 281px;
+  }
+
+  .newsletter {
+    height: 200px;
+  }
+}
