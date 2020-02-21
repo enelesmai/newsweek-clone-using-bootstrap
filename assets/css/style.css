@@ -167,9 +167,12 @@ footer {
   text-decoration: underline #f72210;
 }
 
+.story-h {
+  height: 229px;
+}
+
 .img-feat-story {
   width: 100%;
-  height: 229px;
   background-size: cover;
 }
 
@@ -347,7 +350,7 @@ footer {
 .main-poster {
   background-image: url(https://d.newsweek.com/en/full/1566954/february-21-28-2020-cover.webp?w=290&h=387&q=90&f=0363d8cbe76b3b59e3ad0c42e5fd5c73);
   background-size: cover;
-  height: 387px;
+  height: 347px;
 }
 
 .fill-content {
@@ -357,14 +360,13 @@ footer {
 
 .img-poster {
   background-size: cover;
-  height: 290px;
   width: 100%;
 }
 
 .date-poster {
   position: absolute;
   left: 15px;
-  bottom: 52px;
+  bottom: 36px;
   color: #f22;
   background-color: #ececec;
 }
@@ -574,7 +576,11 @@ nav ul li:nth-child(9) {
   }
 
   .date-poster {
-    bottom: 72px;
+    bottom: 36px;
+  }
+
+  .main-poster {
+    height: 307px;
   }
 }
 
@@ -650,7 +656,7 @@ nav ul li:nth-child(9) {
   }
 
   .main-poster {
-    height: 607px;
+    height: 787px;
   }
 
   .date-poster {
